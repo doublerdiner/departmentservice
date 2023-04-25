@@ -1,0 +1,9 @@
+package com.codeclan.departmentservice.repositories;
+
+import com.codeclan.departmentservice.models.Employee;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface EmployeeRepository extends JpaRepository<Employee, Long> {
+}
